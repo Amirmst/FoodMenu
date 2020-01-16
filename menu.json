@@ -9,43 +9,43 @@
     {
         "id": 1002,
         "name":"Potato Skins",
-        "imageName":"",
+        "imageName":"SupremeNachos",
         "description":"Six hot potato skins stuffed with cheddar, sour cream and crsipy bacon",
-        "category":"STARTER"
+        "category":"starter"
     },
     {
         "id": 1003,
         "name":"Boneless Wings",
-        "imageName":"",
+        "imageName":"SupremeNachos",
         "description":"Original, Honey BBQ, Teryaki, Chipotle or Super Hot. Choose one style or try all 6. Served with celery and bleu cheese",
-        "category":"STARTER"
+        "category":"starter"
     },
     {
         "id": 1004,
         "name":"Stuffed Breadsticks",
-        "imageName":"",
+        "imageName":"SupremeNachos",
         "description":"Choose plain cheese or pepperoni",
-        "category":"STARTER"
+        "category":"starter"
     },
     {
         "id": 1005,
         "name":"Smoked Chicken Quesadilla",
-        "imageName":"",
+        "imageName":"SupremeNachos",
         "description":"Grilled flour tortilla filled with shredded roast chicken and jack cheese, with guacamole and salsa on the side",
-        "category":"STARTER"
+        "category":"starter"
     },
     {
         "id": 1006,
         "name":"Onion Rings",
-        "imageName":"",
+        "imageName":"SupremeNachos",
         "description":"Sweet Vidalias glazed with honey, deep fried in beet batter",
-        "category":"STARTER"
+        "category":"starter"
     },
     {
         "id": 1007,
         "name":"Buffalo Shrimp",
-        "imageName":"",
+        "imageName":"SupremeNachos",
         "description":"Two skewers of grilled marinated shrimp",
-        "category":"STARTER"
-    },
+        "category":"starter"
+    }
 ]

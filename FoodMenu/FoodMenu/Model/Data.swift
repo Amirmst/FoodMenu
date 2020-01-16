@@ -8,7 +8,7 @@
 
 import Foundation
 
-var menuData: [MenuItem] = load("menu.json")
+let menuData: [Item] = load("menu.json")
 
 func load<T:Decodable>(_ filename:String, as type:T.Type = T.self) -> T {
     let data:Data;

@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct MenuItem: Hashable, Codable, Identifiable {
+struct Item: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     var imageName: String
