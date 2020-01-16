@@ -2,42 +2,49 @@
     {
         "id": 1001,
         "name":"Supreme Nachos",
+        "imageName":"SupremeNachos",
         "description":"Choose chicken or chili, whith cheese, jalapenos, olives, tomatoes, salsa and sour cream",
         "category":"starter"
     },
     {
         "id": 1002,
         "name":"Potato Skins",
+        "imageName":"",
         "description":"Six hot potato skins stuffed with cheddar, sour cream and crsipy bacon",
         "category":"STARTER"
     },
     {
         "id": 1003,
         "name":"Boneless Wings",
+        "imageName":"",
         "description":"Original, Honey BBQ, Teryaki, Chipotle or Super Hot. Choose one style or try all 6. Served with celery and bleu cheese",
         "category":"STARTER"
     },
     {
         "id": 1004,
         "name":"Stuffed Breadsticks",
+        "imageName":"",
         "description":"Choose plain cheese or pepperoni",
         "category":"STARTER"
     },
     {
         "id": 1005,
         "name":"Smoked Chicken Quesadilla",
+        "imageName":"",
         "description":"Grilled flour tortilla filled with shredded roast chicken and jack cheese, with guacamole and salsa on the side",
         "category":"STARTER"
     },
     {
         "id": 1006,
         "name":"Onion Rings",
+        "imageName":"",
         "description":"Sweet Vidalias glazed with honey, deep fried in beet batter",
         "category":"STARTER"
     },
     {
         "id": 1007,
         "name":"Buffalo Shrimp",
+        "imageName":"",
         "description":"Two skewers of grilled marinated shrimp",
         "category":"STARTER"
     },
