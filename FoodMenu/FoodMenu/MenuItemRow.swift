@@ -9,13 +9,31 @@
 import SwiftUI
 
 struct MenuItemRow: View {
+    var categoryName: String
+    var items: [Item]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            
+            Text(categoryName)
+                .font(.title)
+                .bold()
+            
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(alignment: .center) {
+                    ForEach(self.items, id: \.id) { item in
+                        MenuItem(item: item)
+                            .frame(width: 300)
+                            .padding(.trailing, 30)
+                    }
+                }
+            }
+        }
     }
 }
 
 struct MenuItemRow_Previews: PreviewProvider {
     static var previews: some View {
-        MenuItemRow()
+        MenuItemRow(categoryName: "STARTERS", items: menuData)
     }
 }
