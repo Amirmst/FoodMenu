@@ -9,43 +9,78 @@
     {
         "id": 1002,
         "name":"Potato Skins",
-        "imageName":"SupremeNachos",
+        "imageName":"PotatoSkins",
         "description":"Six hot potato skins stuffed with cheddar, sour cream and crsipy bacon",
         "category":"starter"
     },
     {
         "id": 1003,
         "name":"Boneless Wings",
-        "imageName":"SupremeNachos",
+        "imageName":"BonelessWings",
         "description":"Original, Honey BBQ, Teryaki, Chipotle or Super Hot. Choose one style or try all 6. Served with celery and bleu cheese",
         "category":"starter"
     },
     {
         "id": 1004,
         "name":"Stuffed Breadsticks",
-        "imageName":"SupremeNachos",
+        "imageName":"StuffedBreadsticks",
         "description":"Choose plain cheese or pepperoni",
         "category":"starter"
     },
     {
         "id": 1005,
         "name":"Smoked Chicken Quesadilla",
-        "imageName":"SupremeNachos",
+        "imageName":"SmokedChickenQuesadilla",
         "description":"Grilled flour tortilla filled with shredded roast chicken and jack cheese, with guacamole and salsa on the side",
         "category":"starter"
     },
     {
         "id": 1006,
         "name":"Onion Rings",
-        "imageName":"SupremeNachos",
+        "imageName":"OnionRings",
         "description":"Sweet Vidalias glazed with honey, deep fried in beet batter",
         "category":"starter"
     },
     {
         "id": 1007,
         "name":"Buffalo Shrimp",
-        "imageName":"SupremeNachos",
+        "imageName":"BuffaloShrimp",
         "description":"Two skewers of grilled marinated shrimp",
         "category":"starter"
+    },
+    {
+        "id": 1008,
+        "name":"Angus Beef Burger",
+        "imageName":"AngusBeefBurger",
+        "description":"Ten ounces of angus beef, grilled vidalia onions, lettuce, and tomato on a home-baked roll",
+        "category":"burger"
+    },
+    {
+        "id": 1009,
+        "name":"Mushroom Swiss Burger",
+        "imageName":"MushroomSwissBurger",
+        "description":"Ten ounces of angus beef, lettuce, tomato, sautéed mushrooms, and melted swiss cheese",
+        "category":"burger"
+    },
+    {
+        "id": 1010,
+        "name":"Hickory Burger",
+        "imageName":"HickoryBurger",
+        "description":"Ten ounces of angus beef, topped with cheddar, hickory-smoked bacon and smoky barbecue sause",
+        "category":"burger"
+    },
+    {
+        "id": 1011,
+        "name":"Santa Fe Burger",
+        "imageName":"SantaFeBurger",
+        "description":"Ten ounces of angus beef, topped with pepper jack cheese, home-made guacamole, pico de gallo and chipotle mayo",
+        "category":"burger"
+    },
+    {
+        "id": 1012,
+        "name":"California Chicken Burger",
+        "imageName":"CaliforniaChickenBurger",
+        "description":"Grilled boneless chicken breast, bacon, red onion, tomato, guacamole, and provolone cheese",
+        "category":"burger"
     }
 ]

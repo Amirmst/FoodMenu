@@ -13,18 +13,29 @@ struct MenuItemRow: View {
     var items: [Item]
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 10) {
             
-            Text(categoryName)
+            Divider()
+                .padding(.leading)
+                .padding(.trailing)
+            
+            Text(categoryName.uppercased())
                 .font(.title)
                 .bold()
+                .padding(.leading, 20)
             
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(alignment: .center) {
-                    ForEach(self.items, id: \.id) { item in
-                        MenuItem(item: item)
-                            .frame(width: 300)
-                            .padding(.trailing, 30)
+            VStack(spacing: -10) {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(alignment: .center) {
+                        ForEach(self.items, id: \.id) { item in
+                            
+                            NavigationLink(destination: ItemDetailView(item: item)) {
+                                MenuItem(item: item)
+                                    .frame(width: 300)
+                                    .padding(.trailing, 10)
+                                    .padding(.leading, 20)
+                            }
+                        }
                     }
                 }
             }

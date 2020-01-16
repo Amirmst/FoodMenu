@@ -17,6 +17,7 @@ struct Item: Hashable, Codable, Identifiable {
     
     enum Category: String, CaseIterable, Codable, Hashable {
         case starter = "starter"
+        case burger = "burger"
     }
 }
 

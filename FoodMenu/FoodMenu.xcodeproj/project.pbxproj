@@ -18,6 +18,7 @@
 		AB497BE023D0EBA900BA1F48 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB497BDF23D0EBA900BA1F48 /* MenuItem.swift */; };
 		AB497BE223D0F15400BA1F48 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = AB497BE123D0F15400BA1F48 /* menu.json */; };
 		AB497BE423D0F3B300BA1F48 /* MenuItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB497BE323D0F3B300BA1F48 /* MenuItemRow.swift */; };
+		AB497BE623D1102800BA1F48 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB497BE523D1102800BA1F48 /* ItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AB497BDF23D0EBA900BA1F48 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		AB497BE123D0F15400BA1F48 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../menu.json; sourceTree = "<group>"; };
 		AB497BE323D0F3B300BA1F48 /* MenuItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemRow.swift; sourceTree = "<group>"; };
+		AB497BE523D1102800BA1F48 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			children = (
 				AB497BD823D0E5F400BA1F48 /* Model */,
 				AB497BC223D0E47F00BA1F48 /* AppDelegate.swift */,
+				AB497BE523D1102800BA1F48 /* ItemDetailView.swift */,
 				AB497BC423D0E47F00BA1F48 /* SceneDelegate.swift */,
 				AB497BDF23D0EBA900BA1F48 /* MenuItem.swift */,
 				AB497BE323D0F3B300BA1F48 /* MenuItemRow.swift */,
@@ -174,6 +177,7 @@
 				AB497BDE23D0E99400BA1F48 /* Data.swift in Sources */,
 				AB497BDA23D0E61B00BA1F48 /* Item.swift in Sources */,
 				AB497BE423D0F3B300BA1F48 /* MenuItemRow.swift in Sources */,
+				AB497BE623D1102800BA1F48 /* ItemDetailView.swift in Sources */,
 				AB497BC523D0E47F00BA1F48 /* SceneDelegate.swift in Sources */,
 				AB497BE023D0EBA900BA1F48 /* MenuItem.swift in Sources */,
 				AB497BC723D0E47F00BA1F48 /* Home.swift in Sources */,
@@ -317,6 +321,7 @@
 				DEVELOPMENT_TEAM = 6MA2KXXMWD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FoodMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +342,7 @@
 				DEVELOPMENT_TEAM = 6MA2KXXMWD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FoodMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
