@@ -18,6 +18,7 @@ struct Home: View {
         NavigationView {
             ScrollView {
                 VStack {
+                    /*
                     ForEach(categories.keys.sorted(), id: \String.self) { category in
                         
                         MenuItemRow(categoryName: "\(category)s", items: self.categories["\(category)"]!)
@@ -25,6 +26,25 @@ struct Home: View {
                             .padding(.top)
                             .padding(.bottom)
                     }
+                    */
+                    
+                    // Workaround to sort the items based
+                    // on category priority on the menu
+                    MenuItemRow(categoryName: "STARTERS", items: self.categories["starter"]!)
+                    .frame(height: 320)
+                    .padding(.top)
+                    .padding(.bottom)
+                    
+                    MenuItemRow(categoryName: "SALADS", items: self.categories["salad"]!)
+                    .frame(height: 320)
+                    .padding(.top)
+                    .padding(.bottom)
+                    
+                    MenuItemRow(categoryName: "BURGERS", items: self.categories["burger"]!)
+                    .frame(height: 320)
+                    .padding(.top)
+                    .padding(.bottom)
+                    
                 }.navigationBarTitle(Text("Menu")
                     .font(.largeTitle))
             }

@@ -82,5 +82,33 @@
         "imageName":"CaliforniaChickenBurger",
         "description":"Grilled boneless chicken breast, bacon, red onion, tomato, guacamole, and provolone cheese",
         "category":"burger"
+    },
+    {
+        "id": 1013,
+        "name":"House Salad",
+        "imageName":"HouseSalad",
+        "description":"Romaine, iceberg, red cabbage, carrots, cucumbers, and cherry tomatoes",
+        "category":"salad"
+    },
+    {
+        "id": 1014,
+        "name":"Grilled Chicken Caesar Salad",
+        "imageName":"GrilledChickenCaesarSalad",
+        "description":"Romaine, parmesan and garlic croutons",
+        "category":"salad"
+    },
+    {
+        "id": 1015,
+        "name":"Black & Bleu Salad",
+        "imageName":"BlackAndBleuSalad",
+        "description":"Grilled sirloin, greens, cucumber, tomato, red onion & bleu cheese",
+        "category":"salad"
+    },
+    {
+        "id": 1016,
+        "name":"Greek Salad",
+        "imageName":"GreekSalad",
+        "description":"Mixed spring greens topped with kalamata olives, cucumber, pickled red onions and feta, with Greek dressing",
+        "category":"salad"
     }
 ]
